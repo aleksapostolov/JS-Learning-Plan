@@ -1,0 +1,1 @@
+This is my JS-Fundamentals learning plan exercises.
