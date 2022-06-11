@@ -16,7 +16,7 @@ function perfectNumber(number){
         console.log("It's not so perfect.")
     } */
 
-    let result = (sumOfDivisors === number) ? 
+    let result = (sumOfDivisors === number) ? // решение с тернарен оператор
     'We have a perfect number!' : "It's not so perfect."
     console.log(result);
 }
