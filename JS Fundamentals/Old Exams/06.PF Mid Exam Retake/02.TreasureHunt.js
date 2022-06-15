@@ -1,5 +1,5 @@
 function treasureHunt(array) {
-  let chestContains = array.shift().split("|");
+  let chestContains = array.shift().split("|"); // нашето инвентори
   let counter = array.length;
   newArray= [];
   let index = 0;
@@ -7,18 +7,14 @@ function treasureHunt(array) {
 
   while (command !== 'Yohoho!'){
     command = array[index];
-    newArray.push(command)
+    newArray.push(command) //пушваме следващият индекс от масива в нов масив, за да работим само с него
 
-    let action = newArray[0];
-    let lootToAdd = newArray[1];
+    let action = newArray[0]; // действието от новия масив - Loot, Steal или Drop
+    let restOfarray = newArray[1]; // благинките в новият масив след действието, които ще се въртят
 
     if (action === 'Loot') {
-        console.log(result) 
-        let result = chestContains.every(function (element) {
-            return newArray.includes(element) !== -1;
-
-           
-          });
+      // for цикъл да превърта прес resrOfArray и да сравнява дали съдържанието го има в chestContans масива...
+      
     }
 /*     console.log(newArray);
  */    newArray=[];
