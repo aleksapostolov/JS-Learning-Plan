@@ -33,7 +33,7 @@ function manOWar(input){
                 let endIndex = Number(tokens[2]);
                 let dmg = Number(tokens[3]);
                 // може да гръмне, ако старт индекса е по-голям от крайния
-                if(i < 0 || i > statusPirateShip.length - 1 || endIndex < 0 || endIndex > statusPirateShip.length){
+                if(i < 0 || i > statusPirateShip.length - 1 || endIndex < 0 || endIndex > statusPirateShip.length - 1){
                     line = input[index];
                     index++;
                     continue;
