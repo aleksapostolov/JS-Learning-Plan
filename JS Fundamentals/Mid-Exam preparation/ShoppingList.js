@@ -26,7 +26,7 @@ function shopingList(array){
         print(listWithGroceries);
 } 
  
-    function urgent(functionOne) {  //добавяме елемнт в началот на масива
+    function urgent(functionOne) {  //добавяме елемeнт в началот на масива
         for (let item of functionOne){
             let hasItem = listWithGroceries.includes(item);
                 if (!hasItem){
