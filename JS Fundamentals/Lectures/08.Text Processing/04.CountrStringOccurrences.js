@@ -10,7 +10,7 @@ function stringOccurrences(str, word){
             counter++
         }
     }
-    console.log(counter)
+    console.log(counter);
     
 }
 stringOccurrences('This is a word and it also is a sentence','is');
