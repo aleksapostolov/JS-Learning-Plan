@@ -6,7 +6,7 @@ function revealWords(words, sentence){
     for (let element of wordsToReveal){
 
         for (let word of sentenceArr){
-            if(word.includes('*') && words.length === element.length){
+            if(word.includes('*') && word.length === element.length){
                 sentence = sentence.replace(word, element);
             }
         }

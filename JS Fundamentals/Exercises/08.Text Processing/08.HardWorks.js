@@ -5,8 +5,8 @@ function hardWorks(input){
     let underscores = [];
 
     for (const el of missingWords) {
-        let underscore = '_';
-        underscore = underscore.repeat(el.length);
+        let underscore = '_'; // може да се добави .repeat(el.length) тук
+        underscore = underscore.repeat(el.length); // а този ред да се изтрие
         underscores.push(underscore);
     }
     missingWords.sort((a,b) => b.length - a.length);
